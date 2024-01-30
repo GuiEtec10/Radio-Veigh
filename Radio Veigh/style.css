@@ -1,57 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
   background-image: linear-gradient(#9b9b9b, #303030);
-  height: calc(100dvh - 16px);
+  height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   color: #d6d6ea;
-  font-family: "Inter";
-}
-
-.container-aplicativo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 button {
-  background-color: inherit;
-  color: inherit;
-  border: none;
-  cursor: pointer;
+   background-color: inherit;
+   color: #d6d6ea;
+   border: none;
+   cursor: pointer;
 }
 
-.music-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#informacoes-faixa {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-
-#anterior, #proximo {
-  font-size: 3rem;
+.container-aplicativo {
+  text-align: center;
+  background: #00000025;
+  padding: 20px;
+  padding-bottom: 30px;
+  border-radius: 20px;
 }
 
 #play-pause {
   font-size: 4rem;
 }
 
+#anterior,
+#proximo {
+  font-size: 3rem;
+}
+
+#capa {
+   width: 300px;
+   border-radius: 15px;
+}
+
+#informacoes-faixa {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 1rem 0 1rem 0;
+   font-size: 1.5rem;
+}
+
 #container-botoes {
   width: 100%;
   display: flex;
   justify-content: space-around;
-}
-
-#capa {
-  width: 300px;
-  border-radius: 15px;
 }
